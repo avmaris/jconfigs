@@ -1,0 +1,9 @@
+#!/usr/bin/env groovy
+
+def call(String name = 'human') {
+  echo "Hello, ${name}."
+  echo "Hello, Mr. ${name}."
+  echo "Hello, or Ms. ${name}."
+  echo "Hello, or... just ${name}."
+}
+
